@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkItemValidator.Console", "WorkItemValidator.Console\WorkItemValidator.Console.csproj", "{DF0CAF28-6F1B-4561-B931-1C4698B7E8FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionFolder", "{50BBDE68-2146-4D04-9DAC-1468D1D99330}"
+	ProjectSection(SolutionItems) = preProject
+		DOR.md = DOR.md
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkItemValidator.AzureDevOps", "WorkItemValidator.AzureDevOps\WorkItemValidator.AzureDevOps.csproj", "{7E21B25D-C55C-4BAC-9D53-531324114ECB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkItemValidator.Domain", "WorkItemValidator.Domain\WorkItemValidator.Domain.csproj", "{C7E6F2BE-9003-476E-B3B7-A862A8D67DA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkItemValidator.Analyzer", "WorkItemValidator.Analyzer\WorkItemValidator.Analyzer.csproj", "{A6FB14E7-8537-443A-9B6B-7B23298DBE85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF0CAF28-6F1B-4561-B931-1C4698B7E8FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF0CAF28-6F1B-4561-B931-1C4698B7E8FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF0CAF28-6F1B-4561-B931-1C4698B7E8FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF0CAF28-6F1B-4561-B931-1C4698B7E8FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E21B25D-C55C-4BAC-9D53-531324114ECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E21B25D-C55C-4BAC-9D53-531324114ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E21B25D-C55C-4BAC-9D53-531324114ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E21B25D-C55C-4BAC-9D53-531324114ECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7E6F2BE-9003-476E-B3B7-A862A8D67DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E6F2BE-9003-476E-B3B7-A862A8D67DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E6F2BE-9003-476E-B3B7-A862A8D67DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E6F2BE-9003-476E-B3B7-A862A8D67DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6FB14E7-8537-443A-9B6B-7B23298DBE85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6FB14E7-8537-443A-9B6B-7B23298DBE85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6FB14E7-8537-443A-9B6B-7B23298DBE85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6FB14E7-8537-443A-9B6B-7B23298DBE85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
